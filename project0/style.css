@@ -1,0 +1,52 @@
+body{
+    margin : 10px;
+    
+}
+.navbar{
+    
+    float:right;
+}
+.navbar ul{
+    align-items: center;
+}
+
+.navbar li{
+    color: red;
+    display: inline;
+    
+    
+}
+
+
+.searchForm{
+    width: 200px;
+	height: 200px;
+	background-color: red;
+	
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+    align-items: center;
+}
+
+input{
+    width: 200px;
+    background-color: aquamarine;
+}
+
+submit{
+  color: aqua;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .center {
+    width: 800px;
+  }
