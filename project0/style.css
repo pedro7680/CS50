@@ -2,6 +2,10 @@ body{
     margin : 10px;
     
 }
+html{
+    font-family: sans-serif;
+    font-size: 20px;
+}
 .navbar{
     
     float:right;
@@ -11,7 +15,7 @@ body{
 }
 
 .navbar li{
-    color: red;
+    
     display: inline;
     
     
@@ -19,9 +23,9 @@ body{
 
 
 .searchForm{
-    width: 200px;
-	height: 200px;
-	background-color: red;
+    width: 600px;
+	height:200px;
+	background-color: gainsboro;
 	
 	position: absolute;
 	top:0;
@@ -33,9 +37,15 @@ body{
     align-items: center;
 }
 
-input{
-    width: 200px;
-    background-color: aquamarine;
+input[type=text] {
+    
+    border-radius: 4px;
+    align-items: center;
+  }
+
+input[type=submit]{
+    padding-left: auto;
+    padding-right: auto;
 }
 
 submit{

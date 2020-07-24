@@ -13,15 +13,24 @@
            
         </ul>
     </div>
-<div class="container">
-    <div class="center">
-    <form action="https://google.com/search">
-        <input type="text" name="q">
-        <input type="submit" value="Google Search">
+    <div class="searchForm">
     
-    </form>
+        <div>
+        <form action="https://google.com/search">
+            <label for="allwords">all these words:</label> 
+            <input id= allwords type="text"  name="q"><br>
+            <label for="phrase">this exact word or phrase:</label>
+            <input id=phrase type="text" name="q"><br>
+            <label for="anywords">any of these words:</label>
+            <input id=anywords type="text" name="q"><br>
+            <label for="nowords">none of these words:</label>
+            <input id=nowords type="text" name="q"><br>
+
+            <input type="submit" value="Google Advanced Search">
+        
+        </form>
     </div>
-</div>
+    </div>
 
 </body>
 </html>
